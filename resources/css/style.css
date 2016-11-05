@@ -1,0 +1,115 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+html {
+    
+    color:#606060;
+    font-family: "lato" , 'Arial' , sans-serif;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    font-size: 20px;
+    
+}
+
+.row {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Header Part */
+header {
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.58),rgba(0, 0, 0, 0.58)),url(img/field.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 960px;
+    margin: 0 auto;
+    top: 30%;
+    left: 26.5%;
+
+}
+.info-part {
+    width: 670px;
+    color: white;
+    padding-left: 0px;
+    
+}
+#title {
+    padding-left: 50px;
+    font-size: 45px;
+}
+#subtitle {
+    font-size: 20px;
+}
+.buttons {
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 150px;
+    margin:0 8px;
+    font-weight: 300;
+    transition: background 0.2s;
+}
+.btn-full:link,
+.btn-full:visited{
+    border: 1px solid #c6db22;
+    background: #a2b130
+}
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px solid #c6db22;
+    color: #c6db22;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background:#8e9d17; 
+    border: 1px solid #8e9d17;
+}
+.btn-ghost:hover,
+.btn-ghost:active {
+    background: #8e9d17;
+    border: 1px solid #8e9d17;
+    color: #fff;
+
+}
+
+.logo {
+    float: left;
+    height: 170px;
+    width: auto;
+    margin-top: -15px;
+}
+.main-nav {
+    float: right;
+    list-style-type: none;
+    margin-top: 40px;
+}
+.main-nav li {
+    display: inline-block;
+    margin-left: 30px;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: #fff;
+    text-decoration: none;
+    font-size: 90%;
+}
+.main-nav li a:hover {
+    border-bottom: 2px solid #c6db22;
+}
