@@ -12,7 +12,20 @@ html {
     font-weight: 300;
     text-rendering: optimizeLegibility;
     font-size: 20px;
+
     
+}
+
+.clearfix {zoom:1}
+.clearfix:after {
+    content: " . ";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+
+
+   
 }
 h2,h3{
          
@@ -32,10 +45,12 @@ h1 {
     margin: 0 auto;
 }
 
-/* Header Part */
+/*********************************************************/
+/*-------------------Header Part------------------------*/
+/*********************************************************/
 header {
-    
-    background-image: linear-gradient(rgba(0, 0, 0, 0.58),rgba(0, 0, 0, 0.58)),url(img/field.jpg);
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.58),rgba(0, 0, 0, 0.58)),url(img/grocery.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -126,17 +141,14 @@ header {
     border-bottom: 2px solid #c6db22;
 }
 
-/*SECTION*/
+/*********************************************************/
+/*-------------------SECTION PART1------------------------*/
+/*********************************************************/
 
 section{
-    padding: 80px 0;
+    padding: 50px 0;
 }
-.section {
 
-  
-    
-
-}
 
 
 h2 {
@@ -170,6 +182,7 @@ h3 {
     font-size: 90%;
 }
 
+
 .box {
     
     padding: 1%;
@@ -189,4 +202,85 @@ h3 {
 }
 #info3 {
     margin-right: 40px;
+}
+
+/*********************************************************/
+/*-------------------SECTION PART2------------------------*/
+/*********************************************************/
+.section-products{
+    padding: 0;
+}
+
+.product-showcase {
+    list-style-type: none;
+    width: 100%;
+}
+.product-showcase li {
+    
+    display: inline-block;
+    float: left;
+    width: 25%;
+}
+.product-photo{
+    background: #000;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.product-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.4s, opacity 0.4s;
+    
+}
+
+.product-photo img:hover{
+    transform: scale(1.04);
+    opacity: 1;
+}
+
+/*********************************************************/
+/*-------------------SECTION PART3------------------------*/
+/*********************************************************/
+
+
+.steps-box:first-child{
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+.steps-box:last-child{
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.app-screen{
+    width: 38%;
+}
+.works-step{
+    margin-bottom: 50px;
+}
+.works-step:last-of-type{
+    margin-bottom: 75px;
+}
+.works-step div {
+    color: #8e9d17;
+    border: 2px solid #8e9d17;
+    display: inline-block;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 4px;
+    float: left;
+    font-size: 150%;
+    margin-right:25px;
+}
+
+.btn-app img {
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
 }

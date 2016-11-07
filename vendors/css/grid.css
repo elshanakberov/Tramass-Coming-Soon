@@ -47,8 +47,9 @@
 	width: 100%;
 }
 
+
 .span_1_of_2 {
-	width: 49.2%;
+	width: 44.2%;
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
@@ -75,6 +76,7 @@
 
 .span-1-of-3 {
 	width: 30.26%; 
+    margin-bottom: 40px;
 }
 
 .span_1_of_3 {
