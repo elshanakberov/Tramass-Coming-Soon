@@ -83,7 +83,8 @@ header {
     margin-top: 20px;
 }
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type=submit]{
     display: inline-block;
     color: white;
     text-decoration: none;
@@ -94,7 +95,8 @@ header {
     transition: background 0.2s;
 }
 .btn-full:link,
-.btn-full:visited{
+.btn-full:visited,
+input[type=submit]{
     border: 1px solid #c6db22;
     background: #a2b130
 }
@@ -105,7 +107,8 @@ header {
 }
 
 .btn-full:hover,
-.btn-full:active {
+.btn-full:active,
+input[type=submit]:hover{
     background:#8e9d17; 
     border: 1px solid #8e9d17;
 }
@@ -304,14 +307,16 @@ h3 {
 }
 
 .icon-small {
-display: inline-block;
+    display: inline-block;
     width: 30px;
     text-align: center;
     color: #8e9d17;
     font-size: 120%;
     line-height: 120%;
     vertical-align: middle;
-    margin-top: -5px; }
+    margin-top: -5px;
+
+}
     
 /*********************************************************/
 /*-------------------SECTION PART4------------------------*/
@@ -353,4 +358,87 @@ cite img {
     border-radius: 50%;
     margin-right: 10px;
     vertical-align: middle;
+}
+
+
+/*********************************************************/
+/*-------------------SECTION PART5------------------------*/
+/*********************************************************/
+
+.section-plans{
+    background-color: #f8f8f8;
+    height: 550px;
+}
+
+.plan-box{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #d1d1d1;
+}
+
+.plan-box div{
+    padding: 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.plan-box div:first-child{
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.plan-box div:last-child{
+    text-align: center;
+    border: 0;
+}
+
+.plan-price{
+    font-size: 280%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #8e9d17;
+}
+
+.plan-price span {
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.plan-price-month{
+    font-size: 80%;
+    
+}
+
+.plan-box ul {
+    list-style-type: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
+
+/*********************************************************/
+/*-------------------CONTACT FORM------------------------*/
+/*********************************************************/
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+input[type=text],
+input[type=email],
+select,
+textarea{
+    width: 60%;
+    padding: 6px;
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+}
+
+textarea{
+    height: 100px;
+}
+input[type=checkbox]{
+    margin: 10px 5px 10px 0;
 }
